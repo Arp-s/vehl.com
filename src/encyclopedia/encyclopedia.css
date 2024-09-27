@@ -1,0 +1,41 @@
+.fauna-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.fauna-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.nobackground{
+    background: none;
+}
+
+.universe-thing {
+    text-align: center;
+}
+
+.lore-image {
+    width: 40%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.box {
+    padding: 10px 10%;
+    text-align: justify;
+}
+    .box h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .box p {
+        margin: 5px 0;
+    }
+
+.lore {
+    background: none;
+}
