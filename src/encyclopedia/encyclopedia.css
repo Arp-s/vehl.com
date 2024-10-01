@@ -2,40 +2,74 @@
     text-align: center;
     margin: 2rem 0;
 }
-
 .fauna-title {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #333;
 }
-
 .nobackground{
     background: none;
 }
 
 .universe-thing {
+    padding: 0 10vw;
     text-align: center;
 }
-
-.lore-image {
-    width: 40%;
-    max-width: 200px;
-    display: block;
-    margin: 10px auto;
+@media (min-width: 1000px) {
+    .universe-thing {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
 
-.box {
-    padding: 10px 10%;
-    text-align: justify;
-}
-    .box h2 {
-        text-align: center;
-        margin-bottom: 10px;
+@media (min-width: 1000px) {
+    .head {
+        position: sticky;
+        top: 25vh;
     }
-    .box p {
-        margin: 5px 0;
+    .body {
+        position: sticky;
+        top: 20vh;
+        margin-left: 10vw;
+    }
+}
+        .head h2 {
+            margin: 0;
+        }
+        .head p {
+            margin: 0;
+            font-style: italic;
+        }
+    .box {
+        text-align: justify;
+    }
+        .box h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .box p {
+            margin: 5px 0;
+        }
+
+    .lore {
+        background: none;
+    }
+        .lore-image {
+            width: 200px;
+            max-width: 200px;
+            display: block;
+            margin: 10px auto;
+        }
+
+    .research {
+    margin-top: 10vh;
+    }
+    .research-img {
+        width: 100%;
+        margin: 0 auto;
     }
 
-.lore {
-    background: none;
+footer {
+    height: 10vh;
 }
